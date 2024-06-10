@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+.option-list {
+  gap: 10px;
+  display: flex;
+}
+
+.option-btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+  text-transform: uppercase;
+  min-width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.option-item:nth-child(1) .option-btn {
+  background-color: #013220;
+  color: white;
+}
+
+.option-item:nth-child(1):hover .option-btn {
+  color: black;
+}
+
+.option-item:nth-child(2) .option-btn {
+  background-color: #a9a9a9;
+  color: white;
+}
+
+.option-item:nth-child(2):hover .option-btn {
+  color: black;
+}
+.option-item:nth-child(3) .option-btn {
+  background-color: #add8e6;
+  color: white;
+}
+
+.option-item .option-btn:hover {
+  background-color: white;
+}
+
+.option-item .option-btn:hover {
+  color: black;
+}
